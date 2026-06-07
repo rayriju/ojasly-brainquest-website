@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ojasly BrainQuest Jr — Class 1 Learning App</title>
+<meta name="description" content="The NCERT-aligned learning adventure for Class 1 kids aged 5–7. Math, English, Bengali, Science & more — all in one playful app."/>
+<meta property="og:title" content="Ojasly BrainQuest Jr"/>
+<meta property="og:description" content="20-minute deep focus sessions that feel like play. NCERT-aligned for Class 1."/>
+<meta property="og:image" content="assets/og-image.png"/>
+<meta name="theme-color" content="#FF6B35"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-dragon">🐉</span>
+      <div>
+        <span class="logo-brand">Ojasly</span>
+        <span class="logo-sub">BrainQuest Jr</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#worlds">Worlds</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#parents">For Parents</a></li>
+      <li><a href="worksheets.html">Free Worksheets</a></li>
+    </ul>
+    <a href="worksheets.html" class="btn-nav">Free Worksheets ↗</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#worlds">Worlds</a>
+    <a href="#features">Features</a>
+    <a href="#parents">For Parents</a>
+    <a href="worksheets.html">Free Worksheets</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg-shapes">
+    <div class="shape s1"></div>
+    <div class="shape s2"></div>
+    <div class="shape s3"></div>
+    <div class="shape s4"></div>
+    <div class="shape s5"></div>
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <div class="badge-pill">🇮🇳 NCERT-Aligned · Class 1 · Ages 5–7</div>
+      <h1>Where Every<br/><span class="highlight">20 Minutes</span><br/>Becomes Magic ✨</h1>
+      <p class="hero-desc">6 vibrant Game Worlds. 473 curriculum questions. Iggy the Dragon as your guide. BrainQuest Jr turns screen time into <strong>deep focus, real learning.</strong></p>
+      <div class="hero-stores">
+        <a href="#coming-soon" class="store-btn" id="ios-btn">
+          <span class="store-icon">🍎</span>
+          <div>
+            <span class="store-label">Coming soon to</span>
+            <span class="store-name">App Store</span>
+          </div>
+        </a>
+        <a href="#coming-soon" class="store-btn" id="android-btn">
+          <span class="store-icon">▶</span>
+          <div>
+            <span class="store-label">Coming soon to</span>
+            <span class="store-name">Google Play</span>
+          </div>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">473</span><span class="stat-label">Questions</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Game Worlds</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Languages</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="phone-mockup">
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <div class="app-header">
+              <span class="app-greeting">Hello, Aarav! 👋</span>
+              <div class="coins-pill">🪙 240</div>
+            </div>
+            <div class="app-iggy">🐉</div>
+            <div class="app-iggy-msg">"Ready for today's quest?"</div>
+            <div class="app-worlds-mini">
+              <div class="world-mini w1">🔢</div>
+              <div class="world-mini w2">📚</div>
+              <div class="world-mini w3">🔬</div>
+              <div class="world-mini w4">🌍</div>
+            </div>
+            <div class="app-streak">🔥 7-day streak!</div>
+          </div>
+        </div>
+        <div class="phone-glow"></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-wave">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#FFF8F0"/></svg>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust-bar">
+  <div class="container trust-inner">
+    <span class="trust-item">✅ NCERT Class 1 Aligned</span>
+    <span class="trust-div">·</span>
+    <span class="trust-item">🔒 COPPA Compliant</span>
+    <span class="trust-div">·</span>
+    <span class="trust-item">📵 No 3rd-Party Ads</span>
+    <span class="trust-div">·</span>
+    <span class="trust-item">⏱️ Screen Time Controls</span>
+    <span class="trust-div">·</span>
+    <span class="trust-item">🇮🇳 Bengali + English</span>
+  </div>
+</section>
+
+<!-- WORLDS -->
+<section class="worlds-section" id="worlds">
+  <div class="container">
+    <div class="section-label">6 Game Worlds</div>
+    <h2 class="section-title">A Whole Universe<br/>of Learning Adventure</h2>
+    <p class="section-sub">Every world is mapped to the NCERT Class 1 curriculum — so playtime and study time are the same thing.</p>
+    <div class="worlds-grid">
+      <div class="world-card" style="--wc:#FF6B35;--wl:#FFF0E8">
+        <div class="world-emoji">🔢</div>
+        <div class="world-info">
+          <h3>Math Kingdom</h3>
+          <p>Addition, subtraction, shapes, word problems & patterns</p>
+          <div class="world-count">87 questions</div>
+        </div>
+      </div>
+      <div class="world-card" style="--wc:#7B61FF;--wl:#F0EEFF">
+        <div class="world-emoji">📚</div>
+        <div class="world-info">
+          <h3>Word & Grammar Jungle</h3>
+          <p>Articles, verbs, pronouns, reading comprehension</p>
+          <div class="world-count">103 questions</div>
+        </div>
+      </div>
+      <div class="world-card" style="--wc:#00C897;--wl:#E6FBF5">
+        <div class="world-emoji">🔬</div>
+        <div class="world-info">
+          <h3>Science Lab</h3>
+          <p>Animals, plants, our body, weather & environment</p>
+          <div class="world-count">45 questions</div>
+        </div>
+      </div>
+      <div class="world-card" style="--wc:#FF4D8D;--wl:#FFF0F5">
+        <div class="world-emoji">🌍</div>
+        <div class="world-info">
+          <h3>GK Galaxy</h3>
+          <p>India, world, festivals, national symbols & awareness</p>
+          <div class="world-count">45 questions</div>
+        </div>
+      </div>
+      <div class="world-card" style="--wc:#F5A623;--wl:#FFFBF0">
+        <div class="world-emoji">🧩</div>
+        <div class="world-info">
+          <h3>Logic Cave</h3>
+          <p>Patterns, sequences, visual reasoning & critical thinking</p>
+          <div class="world-count">45 questions</div>
+        </div>
+      </div>
+      <div class="world-card featured-world" style="--wc:#E91E8C;--wl:#FFF0FA">
+        <div class="world-emoji">🌿</div>
+        <div class="world-info">
+          <h3>Bengali Jungle <span class="bengali-tag">বাংলা</span></h3>
+          <p>কার, ফলা, অনুস্বার, vocabulary & reading — India's first!</p>
+          <div class="world-count">148 questions</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section" id="features">
+  <div class="container">
+    <div class="section-label">How It Works</div>
+    <h2 class="section-title">The 20-Minute<br/>Discovery Lab</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-icon">🐉</div>
+        <h3>Iggy Gives a Quest</h3>
+        <p>Each session starts with a personalised Daily Quest from your dragon mascot — a random world challenge with bonus coins.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-icon">🎮</div>
+        <h3>Play & Discover</h3>
+        <p>MCQs, fill-in-the-blank, true/false, and match-pair — all with bilingual text-to-speech so no child is left behind.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-icon">⏸️</div>
+        <h3>Pause & Think</h3>
+        <p>Stuck? Hit pause. The timer freezes. No pressure. "Take your time to learn!" — because curiosity > speed.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <div class="step-icon">🏆</div>
+        <h3>Earn & Celebrate</h3>
+        <p>Coins, stars, streak badges, and Olympiad certificates — share your child's wins on WhatsApp in one tap.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GAMIFICATION -->
+<section class="gamification-section">
+  <div class="container gamif-inner">
+    <div class="gamif-text">
+      <div class="section-label">Gamification</div>
+      <h2>Rewards That<br/>Actually Motivate</h2>
+      <p>We studied what keeps 5–7 year olds engaged without causing addiction. Every reward loop is designed to build <strong>intrinsic motivation</strong> — not dependency.</p>
+      <ul class="gamif-list">
+        <li><span class="gl-icon">🪙</span><div><strong>Coins</strong> — Earned per correct answer</div></li>
+        <li><span class="gl-icon">⭐</span><div><strong>Up to 3 Stars</strong> per level based on accuracy</div></li>
+        <li><span class="gl-icon">🔥</span><div><strong>Daily Streaks</strong> — consecutive day tracking</div></li>
+        <li><span class="gl-icon">🥇</span><div><strong>Mini Olympiad</strong> — 25 questions, city & national ranking</div></li>
+        <li><span class="gl-icon">🏅</span><div><strong>Badges</strong> — Explorer, Champion, Master, Olympian</div></li>
+      </ul>
+    </div>
+    <div class="gamif-visual">
+      <div class="badge-display">
+        <div class="bd-card">
+          <div class="bd-emoji">🗺️</div>
+          <div class="bd-label">Explorer</div>
+          <div class="bd-sub">5 levels complete</div>
+        </div>
+        <div class="bd-card bd-featured">
+          <div class="bd-emoji">🏆</div>
+          <div class="bd-label">Champion</div>
+          <div class="bd-sub">10 levels complete</div>
+        </div>
+        <div class="bd-card">
+          <div class="bd-emoji">🎓</div>
+          <div class="bd-label">Master</div>
+          <div class="bd-sub">20 levels complete</div>
+        </div>
+        <div class="bd-card">
+          <div class="bd-emoji">🥇</div>
+          <div class="bd-label">Olympian</div>
+          <div class="bd-sub">70%+ Olympiad</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARENT SECTION -->
+<section class="parent-section" id="parents">
+  <div class="container">
+    <div class="section-label">For Parents</div>
+    <h2 class="section-title">You're Always<br/>In the Loop</h2>
+    <p class="section-sub">A full Parent Dashboard that gives you insight, control, and connection — without the anxiety.</p>
+    <div class="parent-grid">
+      <div class="parent-card">
+        <div class="pc-icon">⏱️</div>
+        <h3>Screen Time Control</h3>
+        <p>Set 1–25 minute daily caps. Server-enforced — kids can't bypass it. Live colour-coded timer bar. Resets at 12:01 AM IST.</p>
+      </div>
+      <div class="parent-card">
+        <div class="pc-icon">📊</div>
+        <h3>Weekly Progress Reports</h3>
+        <p>Accuracy, time played, questions answered, strongest & weakest worlds — all in a clean weekly summary.</p>
+      </div>
+      <div class="parent-card">
+        <div class="pc-icon">💬</div>
+        <h3>Send Encouragement via Iggy</h3>
+        <p>Send a custom motivational message that appears to your child through their favourite dragon mascot.</p>
+      </div>
+      <div class="parent-card">
+        <div class="pc-icon">🔒</div>
+        <h3>COPPA-Compliant Privacy</h3>
+        <p>Zero third-party tracking SDKs. All analytics stay on our secure servers. No ads, ever.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORKSHEET CTA BANNER -->
+<section class="ws-banner">
+  <div class="container ws-banner-inner">
+    <div class="ws-banner-text">
+      <h2>Free Printable Worksheets 📄</h2>
+      <p>Curriculum-aligned Class 1 worksheets for Math, English, Bengali, Science & Logic — free to download and print.</p>
+      <a href="worksheets.html" class="btn-primary">Browse Worksheets →</a>
+    </div>
+    <div class="ws-banner-art">📋📐📏✏️</div>
+  </div>
+</section>
+
+<!-- COMING SOON / WAITLIST -->
+<section class="waitlist-section" id="coming-soon">
+  <div class="container waitlist-inner">
+    <div class="ws-iggy">🐉</div>
+    <h2>Launching Soon on<br/>App Store & Google Play</h2>
+    <p>BrainQuest Jr is putting the finishing touches on its 6 worlds. Be the first to know when we launch — and get <strong>early access perks</strong> for your child.</p>
+    <form class="waitlist-form" id="waitlist-form">
+      <input type="text" placeholder="Parent's name" id="wl-name" required/>
+      <input type="email" placeholder="Your email address" id="wl-email" required/>
+      <button type="submit" class="btn-primary">Notify Me at Launch 🚀</button>
+    </form>
+    <div class="waitlist-success" id="waitlist-success">
+      🎉 You're on the list! Iggy will send you a message when we launch.
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="logo">
+        <span class="logo-dragon">🐉</span>
+        <div>
+          <span class="logo-brand">Ojasly</span>
+          <span class="logo-sub">BrainQuest Jr</span>
+        </div>
+      </a>
+      <p>Making India's Class 1 kids fall in love with learning — one quest at a time.</p>
+    </div>
+    <div class="footer-links">
+      <div class="fl-col">
+        <h4>Product</h4>
+        <a href="#worlds">Game Worlds</a>
+        <a href="#features">How It Works</a>
+        <a href="#parents">For Parents</a>
+        <a href="worksheets.html">Free Worksheets</a>
+      </div>
+      <div class="fl-col">
+        <h4>Ojasly</h4>
+        <a href="https://www.ojasly.co.in">Website</a>
+        <a href="https://www.facebook.com/profile.php?id=61588681892013" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/ojasly.brainquestjr/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="fl-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Ojasly. All rights reserved.</span>
+    <span>Made with ❤️ in India · <a href="https://www.ojasly.co.in">www.ojasly.co.in</a></span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

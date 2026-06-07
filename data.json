@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ws-001",
+    "title": "Number Fun: 1–20",
+    "subject": "Math",
+    "world": "Math Kingdom",
+    "class": "Class 1",
+    "description": "Practice counting, tracing, and recognising numbers from 1 to 20.",
+    "file": "worksheets/files/math-numbers-1-20.pdf",
+    "thumbnail": "worksheets/thumbs/math-numbers-1-20.png",
+    "pages": 2,
+    "tags": ["counting", "numbers", "tracing"]
+  },
+  {
+    "id": "ws-002",
+    "title": "Addition Up to 10",
+    "subject": "Math",
+    "world": "Math Kingdom",
+    "class": "Class 1",
+    "description": "Fun addition problems with pictures to help beginners.",
+    "file": "worksheets/files/math-addition-10.pdf",
+    "thumbnail": "worksheets/thumbs/math-addition-10.png",
+    "pages": 3,
+    "tags": ["addition", "sums", "beginners"]
+  },
+  {
+    "id": "ws-003",
+    "title": "Articles: A, An, The",
+    "subject": "English",
+    "world": "Word & Grammar Jungle",
+    "class": "Class 1",
+    "description": "Fill-in-the-blank and picture exercises on using articles correctly.",
+    "file": "worksheets/files/english-articles.pdf",
+    "thumbnail": "worksheets/thumbs/english-articles.png",
+    "pages": 2,
+    "tags": ["grammar", "articles", "English"]
+  },
+  {
+    "id": "ws-004",
+    "title": "Animals Around Us",
+    "subject": "Science",
+    "world": "Science Lab",
+    "class": "Class 1",
+    "description": "Identify and classify common animals — pets, farm, and wild.",
+    "file": "worksheets/files/science-animals.pdf",
+    "thumbnail": "worksheets/thumbs/science-animals.png",
+    "pages": 2,
+    "tags": ["animals", "science", "classification"]
+  },
+  {
+    "id": "ws-005",
+    "title": "Patterns & Shapes",
+    "subject": "Math",
+    "world": "Logic Cave",
+    "class": "Class 1",
+    "description": "Complete the pattern! Circles, squares, triangles, and more.",
+    "file": "worksheets/files/logic-patterns.pdf",
+    "thumbnail": "worksheets/thumbs/logic-patterns.png",
+    "pages": 2,
+    "tags": ["patterns", "shapes", "logic"]
+  },
+  {
+    "id": "ws-006",
+    "title": "বাংলা স্বরবর্ণ",
+    "subject": "Bengali",
+    "world": "Bengali Jungle",
+    "class": "Class 1",
+    "description": "অ আ ই — স্বরবর্ণ চেনা ও লেখার অনুশীলন।",
+    "file": "worksheets/files/bengali-swarabarna.pdf",
+    "thumbnail": "worksheets/thumbs/bengali-swarabarna.png",
+    "pages": 3,
+    "tags": ["Bengali", "স্বরবর্ণ", "tracing"]
+  }
+]

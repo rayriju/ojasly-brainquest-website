@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Free Worksheets — Ojasly BrainQuest Jr Class 1</title>
+<meta name="description" content="Free printable NCERT Class 1 worksheets for Math, English, Bengali, Science and Logic. Download and print instantly."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="worksheets.css"/>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-dragon">🐉</span>
+      <div>
+        <span class="logo-brand">Ojasly</span>
+        <span class="logo-sub">BrainQuest Jr</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#worlds">Worlds</a></li>
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#parents">For Parents</a></li>
+      <li><a href="worksheets.html" style="color:var(--orange)">Worksheets</a></li>
+    </ul>
+    <a href="index.html#coming-soon" class="btn-nav">Get Notified 🚀</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html#worlds">Worlds</a>
+    <a href="index.html#features">Features</a>
+    <a href="index.html#parents">For Parents</a>
+    <a href="worksheets.html">Worksheets</a>
+  </div>
+</nav>
+
+<section class="ws-hero">
+  <div class="container ws-hero-inner">
+    <div class="section-label">100% Free · No Login Required</div>
+    <h1>Free Printable<br/><span class="highlight">Worksheets</span> 📋</h1>
+    <p>NCERT Class 1 worksheets for Math, English, Bengali, Science & Logic. Download and print — no signup, no strings.</p>
+  </div>
+</section>
+
+<section class="ws-main">
+  <div class="container">
+
+    <!-- Filters -->
+    <div class="ws-filters" id="ws-filters">
+      <button class="filter-btn active" data-subject="All">All Subjects</button>
+      <button class="filter-btn" data-subject="Math">🔢 Math</button>
+      <button class="filter-btn" data-subject="English">📚 English</button>
+      <button class="filter-btn" data-subject="Bengali">🌿 Bengali</button>
+      <button class="filter-btn" data-subject="Science">🔬 Science</button>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="ws-stats-bar">
+      <span id="ws-count">Loading worksheets...</span>
+    </div>
+
+    <!-- Grid -->
+    <div class="ws-grid" id="ws-grid">
+      <div class="ws-loading">Loading worksheets<span class="loading-dots">...</span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ADD WORKSHEET GUIDE for developers -->
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  HOW TO ADD A NEW WORKSHEET (no code changes needed)         ║
+  ║                                                              ║
+  ║  1. Add the PDF to:   worksheets/files/your-file.pdf         ║
+  ║  2. Add a thumbnail:  worksheets/thumbs/your-file.png        ║
+  ║     (optional — a default placeholder is shown if missing)   ║
+  ║  3. Open:             worksheets/data.json                   ║
+  ║  4. Copy any existing entry and fill in your details         ║
+  ║  5. Commit & push — done!                                    ║
+  ║                                                              ║
+  ║  Fields in data.json:                                        ║
+  ║    id        — unique string, e.g. "ws-007"                  ║
+  ║    title     — worksheet name                                ║
+  ║    subject   — Math / English / Bengali / Science / Logic    ║
+  ║    world     — e.g. "Math Kingdom"                           ║
+  ║    class     — "Class 1"                                     ║
+  ║    description — 1-2 sentences                               ║
+  ║    file      — path to PDF                                   ║
+  ║    thumbnail — path to PNG thumbnail (300×400px ideal)       ║
+  ║    pages     — number of pages                               ║
+  ║    tags      — array of keyword strings                      ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <span class="logo-dragon">🐉</span>
+        <div>
+          <span class="logo-brand">Ojasly</span>
+          <span class="logo-sub">BrainQuest Jr</span>
+        </div>
+      </a>
+      <p>Making India's Class 1 kids fall in love with learning — one quest at a time.</p>
+    </div>
+    <div class="footer-links">
+      <div class="fl-col">
+        <h4>Worksheets</h4>
+        <a href="worksheets.html">All Worksheets</a>
+        <a href="worksheets.html?subject=Math">Math</a>
+        <a href="worksheets.html?subject=English">English</a>
+        <a href="worksheets.html?subject=Bengali">Bengali</a>
+      </div>
+      <div class="fl-col">
+        <h4>Ojasly</h4>
+        <a href="https://www.ojasly.co.in">Website</a>
+        <a href="https://www.facebook.com/profile.php?id=61588681892013" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/ojasly.brainquestjr/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Ojasly. All rights reserved.</span>
+    <span>www.ojasly.co.in</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script src="worksheets.js"></script>
+</body>
+</html>
